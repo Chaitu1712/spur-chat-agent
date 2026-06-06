@@ -3,7 +3,7 @@
 	import { page } from '$app/stores';
 	import { Trash2, Copy, Send, Loader2 } from 'lucide-svelte';
 	import { marked } from 'marked';
-	import DOMPurify from 'isomorphic-dompurify';
+	import DOMPurify from 'dompurify';
     import { goto } from '$app/navigation';
 
 	type Message = { role: 'user' | 'ai' | 'error'; content: string };
