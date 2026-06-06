@@ -3,7 +3,8 @@
 A modern, glassmorphism-inspired AI live chat support agent. Built to demonstrate a robust full-stack architecture, secure LLM integration, and a premium user experience.
 
 **🚀 Live Demo:** [https://spur-chat-agent-chi.vercel.app]
-**🛠️ Tech Stack:** Svelte 5, SvelteKit, TypeScript, Prisma, Vercel Postgres (Neon), Google Gemini 1.5 Flash.
+
+**🛠️ Tech Stack:** Svelte 5, SvelteKit, TypeScript, Prisma, Vercel Postgres (Neon), Google Gemini 2.5 Flash.
 
 ---
 
