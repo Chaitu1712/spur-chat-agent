@@ -1,12 +1,8 @@
-This is the comprehensive `README.md` for your submission. It is structured to highlight your technical depth, architectural decisions, and the "founding engineer" mindset that Spur is looking for.
-
-***
-
 # Spur AI Support Agent – Founding Full-Stack Engineer Take-Home
 
 A modern, glassmorphism-inspired AI live chat support agent. Built to demonstrate a robust full-stack architecture, secure LLM integration, and a premium user experience.
 
-**🚀 Live Demo:** [Your Vercel URL Here]  
+**🚀 Live Demo:** [https://spur-chat-agent-chi.vercel.app]
 **🛠️ Tech Stack:** Svelte 5, SvelteKit, TypeScript, Prisma, Vercel Postgres (Neon), Google Gemini 1.5 Flash.
 
 ---
@@ -111,7 +107,3 @@ The schema is designed for scalability:
 2. **RAG (Retrieval Augmented Generation):** Instead of hardcoding the FAQ in the prompt, I would implement a vector search (using pgvector) to allow the store owner to upload large PDF manuals.
 3. **Tool Use:** I would give the AI the ability to "Check Order Status" by connecting it to a mock Shopify API.
 4. **Unit Testing:** Add Vitest suites for the LLM service to ensure guardrails aren't broken by prompt updates.
-
----
-
-**Built with ❤️ for the Spur Founding Engineer Take-Home.**
